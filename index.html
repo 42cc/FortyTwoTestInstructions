@@ -35,7 +35,7 @@
     <br>
     </div>
     <div class="col-xs-12"><b>
-      3. Now you get go to <a href="http://getbarista.com/project">http://getbarista.com/project</a> and add your project using Add public project from github link. Just like this: 
+      3. Now you get go to <a href="http://getbarista.com/project">http://getbarista.com/project</a> and add your project using Add public project from github link. Just like this:
     </b></div>
      <div class="col-xs-12">
      <br>
@@ -43,7 +43,7 @@
     <br>
     </div>
     <div class="col-xs-12"><b>
-      4. Enter your github project url and project name to be used in getBarista: 
+      4. Enter your github project url and project name to be used in getBarista:
     </b></div>
     <div class="col-xs-12">
     <br>
@@ -51,7 +51,7 @@
     <br>
     </div>
     <div class="col-xs-12"><b>
-      5. On project dashboard, set Django settings module to <i>fortytwo_test_task.settings</i> and save the changes:
+      5. On project dashboard, set Django settings module to <i>fortytwo_test_task.settings</i>, python version (3), migrations mode (1.7+) and save the changes:
     </b></div>
     <div class="col-xs-12">
     <br>
@@ -75,7 +75,7 @@ $ cd yourproject <br>
 $ virtualenv --no-site-packages .env <br>
 $ source .env/bin/activate <br>
 $ .env/bin/pip install -r requirements.txt <br>
-$ python manage.py syncdb --no-input
+$ python manage.py migrate --no-input
     </i></div>
     <div class="col-xs-12"><b><br>
       8. Change db with random name in settings and make initial commit. Push changes, they will be deployed automatically.
@@ -124,7 +124,7 @@ $ python manage.py syncdb --no-input
     <img src="images/13.png" class="img-responsive">
     <br>
     <div class="col-xs-12"><b>
-      11. Work with south (use django 1.6<=version&lt;1.7). All migrations run automatically. Press Migrations for host deploy… syncdb to create database. When you will add migrations, go here to get list of them.
+      11. Form here you can execute 1 or all migrations.
     </b></div>
     </div>
     <div class="col-xs-12"><br>
